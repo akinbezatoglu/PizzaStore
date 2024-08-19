@@ -282,8 +282,8 @@ function Pizza() {
                                                         onClick={() => openUpdateModal(pizza)}
                                                         className='top-2 right-2 m-1 bg-teal-600 text-white rounded'
                                                     >
-                                                        <svg className='w-4 h-4' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-                                                            <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M12 6v12M6 12h12'></path>
+                                                        <svg className='w-4 h-4 fill-teal-100' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                            <path d="M11.5 20A.5.5 0 1011.5 21 .5.5 0 1011.5 20zM14.5 20A.5.5 0 1014.5 21 .5.5 0 1014.5 20zM17.5 20A.5.5 0 1017.5 21 .5.5 0 1017.5 20zM12.586 4.838L4.256 16.998c-.052.075-.082.164-.087.256L4 20.474c-.009.176.075.343.22.441C4.305 20.972 4.402 21 4.5 21c.072 0 .145-.016.212-.047l2.92-1.366c.081-.038.15-.097.201-.171L16.168 7.25 12.586 4.838zM16.733 6.424l1.222-1.784c.086-.125.11-.283.065-.429-.013-.041-.32-1.017-1.266-1.654-.945-.636-1.963-.553-2.008-.551-.149.013-.284.092-.369.216l-1.227 1.79L16.733 6.424z"></path>
                                                         </svg>
                                                     </button>
                                                 </div>
