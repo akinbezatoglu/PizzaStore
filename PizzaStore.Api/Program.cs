@@ -8,7 +8,7 @@ using PizzaStore.Api.Data.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddSqlite<PizzaStoreDbContext>(
-    builder.Configuration.GetConnectionString("Pizzas") ?? "Data Source=Pizzas.db"
+    builder.Configuration.GetConnectionString("Pizzas")
 );
 
 builder.Services.AddEndpointsApiExplorer();
