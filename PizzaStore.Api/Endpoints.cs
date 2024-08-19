@@ -21,6 +21,7 @@ namespace PizzaStore.Api
 
             endpoints.MapPublicGroup()
                 .MapEndpoint<CreatePizza>()
+                .MapEndpoint<CreatePizzas>()
                 .MapEndpoint<DeletePizza>()
                 .MapEndpoint<GetPizzaById>()
                 .MapEndpoint<GetPizzas>()
